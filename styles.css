@@ -1,85 +1,123 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f8f8f8;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
+/* Header */
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
+/* Navigation Menu */
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 10px;
+    padding: 15px;
     background-color: #444;
+    border-bottom: 4px solid #ff7e5f;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 8px 12px;
+    padding: 10px 15px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #ff7e5f;
+    border-radius: 8px;
+    color: #fff;
 }
 
 nav ul li a.active {
-    background-color: #666;
-    border-radius: 5px;
+    background-color: #feb47b;
+    border-radius: 8px;
+    color: white;
 }
 
+/* Main Content */
 main {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 h2 {
     color: #333;
+    font-size: 28px;
 }
 
+/* Image Styling */
 img {
     width: 350px;
     height: auto;
     border-radius: 10px;
     margin-top: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Vibrant Menu Page Styling */
 .menu-list {
     list-style: none;
     padding: 0;
 }
 
 .menu-list li {
-    background-color: white;
-    margin: 10px auto;
-    padding: 10px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+    font-weight: bold;
+    margin: 15px auto;
+    padding: 12px;
     width: 50%;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
 }
 
+.menu-list li:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+}
+
+/* Vibrant Contact Page Styling */
 .contact-info {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
     width: 50%;
     margin: auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
+.contact-info p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Footer */
 footer {
     background-color: #222;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
+    font-size: 14px;
     margin-top: 20px;
+    border-top: 4px solid #ff7e5f;
 }
