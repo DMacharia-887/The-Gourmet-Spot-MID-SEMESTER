@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f8f8f8;
@@ -7,7 +6,6 @@ body {
     text-align: center;
 }
 
-/* Header */
 header {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: white;
@@ -17,7 +15,6 @@ header {
     font-weight: bold;
 }
 
-/* Navigation Menu */
 nav ul {
     display: flex;
     justify-content: center;
@@ -51,7 +48,6 @@ nav ul li a.active {
     color: white;
 }
 
-/* Main Content */
 main {
     text-align: center;
     padding: 30px;
@@ -62,7 +58,6 @@ h2 {
     font-size: 28px;
 }
 
-/* Image Styling */
 img {
     width: 350px;
     height: auto;
@@ -71,7 +66,6 @@ img {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Vibrant Menu Page Styling */
 .menu-list {
     list-style: none;
     padding: 0;
@@ -94,7 +88,6 @@ img {
     background: linear-gradient(to right, #ff5e62, #ff9966);
 }
 
-/* Vibrant Contact Page Styling */
 .contact-info {
     background: linear-gradient(to right, #43cea2, #185a9d);
     color: white;
@@ -111,7 +104,6 @@ img {
     margin: 10px 0;
 }
 
-/* Footer */
 footer {
     background-color: #222;
     color: white;
